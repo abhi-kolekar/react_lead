@@ -1,0 +1,69 @@
+
+@import "~@mdi/font/css/materialdesignicons.css";
+@import "~font-awesome/css/font-awesome.css";
+
+@import url('assets/vendors/mdi/css/materialdesignicons.min.css');
+@import url('assets/css/style.css');
+
+.search-field .input-group {
+    border: 1px solid #d7d7d7;
+    border-radius: 22px;
+}
+
+.navbar .navbar-menu-wrapper .navbar-nav .nav-item .dropdown .dropdown-toggle,
+.navbar .navbar-menu-wrapper .navbar-nav .nav-item .dropdown .dropdown-toggle:focus {
+    border: 0;
+    padding: 0;
+    background: transparent;
+    font-weight: 300;
+    box-shadow:unset;
+}
+.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-settings .nav-link{
+    background-color: transparent;
+}
+.navbar .navbar-brand-wrapper .navbar-brand.brand-logo-mini img,
+.navbar .navbar-brand-wrapper .navbar-brand img{
+    width: unset;
+    height: 65px;
+}
+
+
+
+.sts .tab-pills-horizontal .nav.nav-pills{
+    flex-direction: row!important;
+}
+
+.sts .tab-pills-horizontal  .nav-pills .nav-item {
+    margin-right: 1rem; 
+}
+
+.sts .tab-pills-horizontal .nav.nav-pills .nav-item .nav-link,
+.modal-body .tab-pills-horizontal .nav.nav-pills .nav-item .nav-link {
+    color: #000000;
+    background: #e6e9ed;
+    border-color: #e6e9ed;
+    width: 110px;
+    margin: 0 0.5em 0.5em;
+    margin: 0;
+    padding: 1em 1em;
+    padding: 0.8em 0.8em;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.875rem;
+  
+}
+
+.sts .tab-pills-horizontal .nav.nav-pills .nav-item .nav-link.active,
+.modal-body .tab-pills-horizontal .nav.nav-pills .nav-item .nav-link.active {
+    background: #b66dff;
+    color: #ffffff;
+    display: block;
+    width: 110px;
+    margin: 0 0.5em 0.5em;
+    margin: 0;
+    padding: 0.8em 0.8em;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.875rem;
+
+}

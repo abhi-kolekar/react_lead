@@ -1,0 +1,84 @@
+
+1) switch css to sass application
+
+npm install sass
+
+
+************************************************************************************************
+npm i node-sass
+sass
+redux toolkit
+react-redux
+boostrap
+compass-mixins
+font-awesome
+npm i @mdi
+react-bootstrap-typeahead
+react-bootstrap
+react-datepicker
+react-bootstrap-table-next  not done
+nouislider
+********************************************************
+env setup 
+1. create plain text file with a .env extension 
+2. add REACT_API_URL=https://api.procodesoft.com/ in .env
+3. export const API_URL = process.env.REACT_API_URL; use in constant
+ 
+
+******************************************************************************************
+Importing images
+
+1. the import statement is the most commonly used method for importing locally stored images in React.
+import Logo from './images/react-logo.png';
+const App = () => {
+   return (
+      <div>
+         <img src={Logo} alt="React Logo" />
+      </div>
+   );
+};
+
+2. The require() function is a Node.js function that is used to include external modules from files other than the current file. 
+It works in the same way as the import statement and allows us to include images:
+let Logo = require('./images/react-logo.png');
+
+const App = () => {
+   return (
+      <div>
+         <img src={Logo} alt="React Logo" />
+      </div>
+   );
+};
+
+const App = () => {
+   return (
+      <div>
+         <img src={require('./images/react-logo.png')} alt="React Logo" />
+      </div>
+   );
+};
+
+3.
+const App = () => {
+   return (
+      <div>
+         <img src="https://reactjs.org/logo-og.png" alt="React Logo" />
+      </div>
+   );
+};
+
+******************************************************************************************
+
+Add Industry, Sector part
+note we state assign to varibale like array use alwar destruction
+
+
+
+
+
+******************************************************************************************
+search point 
+
+https://www.javascripttutorial.net/es-next/javascript-object-values/
+Object.values
+Object.values() vs. for...in
